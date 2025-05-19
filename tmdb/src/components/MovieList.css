@@ -1,0 +1,33 @@
+h3 {
+  color: white;
+  padding-left: 8px;
+}
+
+p {
+  color: yellow;
+  margin-top: 0;
+  padding-left: 8px;
+}
+
+.wrapper-card {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 22px;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: aliceblue;
+
+  border-radius: 5px;
+  background-color: rgb(59, 58, 58);
+}
+
+.card img {
+  width: 100%;
+  display: block;
+  border-radius: 5px;
+}
